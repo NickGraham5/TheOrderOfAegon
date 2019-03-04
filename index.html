@@ -416,16 +416,22 @@
         </div>
       </div>
       <div class="login-form">
-          <form action="/examples/actions/confirmation.php" method="post">
+          <form>
               <h2 class="text-center">Log in</h2>       
-              <div class="form-group">
+             <!--  <div class="form-group">
                   <input type="text" class="form-control" placeholder="Username" required="required">
               </div>
               <div class="form-group">
                   <input type="password" class="form-control" placeholder="Password" required="required">
-              </div>
+              </div> -->
+
+<!-- Bungie Authentication -->
               <div class="form-group">
-                  <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                  <button type="submit" class="btn btn-primary btn-block">
+                      <a rel="noopener noreferrer" href="https://www.bungie.net/en/OAuth/Authorize?client_id=26354&amp;response_type=code&amp;state=ff46fd86d2934936b2c80629f00abba7"></a>Authorize with Bungie.net
+                  </button>
+
+                  <!-- <a rel="noopener noreferrer" href="https://www.bungie.net/en/OAuth/Authorize?client_id=13672&amp;response_type=code&amp;state=75be5c06-bc72-474a-8a3e-bb5bee90172f">Authorize with Bungie.net</a> -->
               </div>
               <div class="clearfix">
                   <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
