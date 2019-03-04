@@ -15,15 +15,15 @@ p {
 }
 
 a {
-  color: #9234fe;
+  color: #3E50B4;
 }
 
 a:hover {
-  color: #39ddfe;
+  color: #FF3F80;
 }
 
 .text-primary {
-  color: #9234fe !important;
+  color: #3E50B4 !important;
 }
 
 h1,
@@ -76,13 +76,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #9234fe;
-  border-color: #9234fe;
+  background-color: #3E50B4;
+  border-color: #3E50B4;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #4401cb !important;
-  border-color: #4401cb !important;
+  background-color: #FF3F80 !important;
+  border-color: #FF3F80 !important;
   color: white;
 }
 
@@ -92,7 +92,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-  background: #9234fe;
+  background: #3E50B4;
   text-shadow: none;
 }
 
@@ -115,17 +115,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #9234fe;
+  background-color: #3E50B4;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #9234fe;
+  color: #3E50B4;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #39ddfe;
+  color: #FF3F80;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -138,7 +138,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #9234fe;
+  color: #FF3F80;
 }
 
 @media (min-width: 992px) {
@@ -449,7 +449,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #9234fe;
+  background-color: #3E50B4;
 }
 
 .timeline > li .timeline-image h4 {
@@ -484,7 +484,7 @@ header.masthead .intro-text .intro-heading {
 
 .timeline .timeline-heading h4 {
   margin-top: 0;
-  color: #9234fe;
+  color: #3E50B4;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -622,7 +622,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #9234fe;
+  border-color: #3E50B4;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -712,5 +712,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #9234fe;
+  background-color: #3E50B4;
 }
