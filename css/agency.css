@@ -643,9 +643,10 @@ section#contact :-ms-input-placeholder {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+/* -- Styling for the Login Box -- */
 .login-form {
   width: 340px;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .login-form form {
