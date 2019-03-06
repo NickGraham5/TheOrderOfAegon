@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+  <meta name="google-signin-client_id" content="977849186943-n9kbjgfhfev53i7oh97ddig22sujusdk.apps.googleusercontent.com">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -19,6 +19,7 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
@@ -421,7 +422,14 @@
               <div class="form-group">
 
               <!-- Authenticate -->
-                  <button type="submit" class="btn btn-primary btn-block" rel="noopener noreferrer" https://www.bungie.net/en/OAuth/Authorize?client_id={26354}&response_type=code>Log in</button>
+                  <div>
+                     <button><div class="g-signin2" data-onsuccess="onSignIn">Sign In</div></button>
+
+                    </div>
+                
+               
+
+
               </div>
               <div class="clearfix">
                   <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
