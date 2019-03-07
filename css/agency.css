@@ -722,6 +722,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .g-signin2{
   width: 100%;
+  padding: .8em;
+  border: 1px solid transparent;
 }
 
 .g-signin2 > div{
