@@ -21,6 +21,10 @@ var profile = googleUser.getBasicProfile();
    $(".data").css("display","block");
    $("#pic").attr("src",profile.getImageUrl());
    $("#email").text(profile.getEmail());
+
+   console.log('Name: ' + profile.getName());
+   console.log('Image URL: ' + profile.getImageUrl());
+   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
 }
 
 // <a href="#" onclick="signOut();">Sign out</a>
