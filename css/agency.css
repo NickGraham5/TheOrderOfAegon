@@ -729,3 +729,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .g-signin2 > div{
   margin: 0 auto;
 }
+
+.data {
+  display: none;
+}
