@@ -720,16 +720,17 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #36C187;
 }
 
-.g-signin2{
+.g-signin2 {
   width: 100%;
   padding: .8em;
 }
 
-.g-signin2 > div{
+.g-signin2 > div {
   margin: 0 auto;
 }
 
 .gsignout {
+  width: 100%;
   margin: 0 auto;
 }
 
