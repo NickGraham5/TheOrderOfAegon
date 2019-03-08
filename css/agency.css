@@ -729,11 +729,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin: 0 auto;
 }
 
-.gsignout {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .data {
   display: none;
+  text-align: center;
 }
